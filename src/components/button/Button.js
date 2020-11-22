@@ -9,10 +9,10 @@ interface Props {
 
 export default function Button({primary, label }: Props) {
     if(primary) {
-        return <div className="button primary-button">(label)</div>
+        return <div className="button primary-button">LOG IN</div>
     }
     else {
-        return <div className="button secondary-button">(label)</div>
+        return <div className="button secondary-button">SIGN UP</div>
     }
 }
 

@@ -1,0 +1,40 @@
+.community-section {
+    background-color: white;
+    border-radius: var(--border-radius);
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.community-section .title {
+    position: relative;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    height: 80px;
+    background-image: url("assets/images/communitites/jpg");
+}
+
+.community-section .title > span {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: white;
+    
+    font-weight: 600;
+}
+
+/* community text
+.community-section .communities-wrapper .community {
+    display: flex;
+    align-items: center;
+    padding: 8px 0px;
+    padding-left: 25px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+ }
+//
+
+/* community cake with created date 
+.community-section .cake .date-created {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+}
+*/

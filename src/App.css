@@ -1,8 +1,15 @@
 :root {
   --border-radius: 3px;
   --primary-color: rgb(0, 120, 209);
+  --light-grey: rgb(245, 245, 245);
 
 }
+
+body {
+  background-color:#dae0e6;
+}
+
+
 
 .hoverable:hover {
   cursor: pointer;

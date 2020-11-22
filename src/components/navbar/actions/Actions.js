@@ -1,14 +1,13 @@
 import React from 'react';
 
 import './Actions.css';
-import Button from "../button/Button";
+import Button from "../../button/Button";
 
 import PersonIcon from "@material-ui/icons/Person";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 
 export default function Actions() {
     return (
-    <React.Fragment>
         <div className="actions">
             <Button label="LOG IN" />
             <Button primary label="SIGN UP" />
@@ -17,7 +16,6 @@ export default function Actions() {
                 <ArrowDropDownIcon className="hoverable" />
             </div>
         </div>
-    </React.Fragment>
     );
 }
 
