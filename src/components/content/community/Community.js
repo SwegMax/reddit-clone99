@@ -4,7 +4,7 @@ import './Community.css';
 
 export default function Community() {
     return (
-        /*<div className="community-section">
+        <div className="community-section">
             <div className="title">
                 <span>About Community</span>
             </div>
@@ -18,6 +18,6 @@ export default function Community() {
                 <span>Created Feb 6, 2015</span>
             </div>
         </div>
-        */
-    );
+        
+    )
 }

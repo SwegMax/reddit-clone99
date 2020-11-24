@@ -20,8 +20,9 @@ export default function Posts() {
                     </div>
                     <div className="post-title">
                         <img src={post.subreddit.image_src}/>
-                        <span>r/</span>
-                        <span>Posted by u/</span>
+                        <span className="subreddit-name">r/{post.subreddit.name}</span>  // subreddit name
+                        <span className="post-user">Posted by</span>
+                        <span className="post-user underline">u/{post.username}</span>
                         <div className="spacer"></div>
                         <Button label="+ JOIN" />
                     </div>

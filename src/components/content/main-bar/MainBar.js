@@ -53,9 +53,11 @@ export default function MainBar() {
                     <ArrowDropDown />
                 </div>
             </div>
-            
-            <Posts />
+        
+        
 
+
+            
         </div>
         
         
